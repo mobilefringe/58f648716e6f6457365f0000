@@ -76,7 +76,7 @@
         </div>
         <div class="row">
             <div class="logo_container">
-                <a href="/"><img src="//codecloud.cdn.speedyrails.net/sites/59a082116e6f64581b7e0000/image/png/1517929518000/cts_600x180_logo.pngg" class="main_logo" /></a>
+                <a href="/"><img src="//codecloud.cdn.speedyrails.net/sites/59a082116e6f64581b7e0000/image/png/1517929518000/cts_600x180_logo.png" class="main_logo" /></a>
             </div>
             <div class="nav_container hidden_phone">
                 <div class="social_links">
@@ -108,8 +108,8 @@
                     <div class="dropdown">
                         <a href="#" type="button" id="dropdownMenuCenterInfo" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Center Information</a>
                         <ul class="dropdown-menu center_info_dd" aria-labelledby="dropdownMenuCenterInfo">
-                             <li><a href="/pages/district-services">SERVICES</a></li>
-                <li><a href="/pages/district-contact-us">CONTACT</a></li>
+                             <li><a href="/pages/clairemont-services">SERVICES</a></li>
+                <li><a href="/pages/clairemont-contact-us">CONTACT</a></li>
                         </ul>
                     </div>
                     <div class="clearfix"></div>
