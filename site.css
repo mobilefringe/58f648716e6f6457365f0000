@@ -37,15 +37,12 @@ $animation_color: #66234c;
     background-image: url(//codecloud.cdn.speedyrails.net/sites/59a082116e6f64581b7e0000/image/jpeg/1517929450000/cts_1920x150_banner_location.jpgg);
 }
 
-.district-services{
-    background-image: url(//codecloud.cdn.speedyrails.net/sites/57f2b1016e6f645d03550000/image/jpeg/undefined/dtl_1920x150_banner_services.jpg);
-}
 
-.district-contact-us{
-    background-image: url(//codecloud.cdn.speedyrails.net/sites/57f2b1016e6f645d03550000/image/jpeg/undefined/dtl_1920x150_banner_contact.jpg);
+.clairemont-contact-us{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/59a082116e6f64581b7e0000/image/jpeg/1517929488000/cts_1920x150_banner_contact.jpg);
 }
-.district-privacy-policy{
-    background-image: url(//codecloud.cdn.speedyrails.net/sites/57f2b1016e6f645d03550000/image/jpeg/undefined/dtl_1920x150_banner_privacy.jpg);
+.clairemont-privacy-policy{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/59a082116e6f64581b7e0000/image/jpeg/1517929472000/cts_1920x150_banner_privacy.jpgg);
 }
 .district-videos{
     background-image: url(//codecloud.cdn.speedyrails.net/sites/57f2b1016e6f645d03550000/image/jpeg/undefined/dtl_1920x150_banner_events.jpg);
