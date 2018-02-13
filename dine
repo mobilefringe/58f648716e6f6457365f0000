@@ -13,6 +13,7 @@
         <ul id="category_container2" class="dropdown-menu" aria-labelledby="cat_dd2">
             <li href="#" class="show_all_stores">All</li>
             <li class="show_cat_stores" data-id="5634">Restaurant - Casual</li>
+             <li class="show_cat_stores" data-id="5634">Restaurant - Casual</li>
             
         </ul>
     </div>
@@ -35,7 +36,8 @@
                 </a>
                 <ul id="category_container" class="dropdown-menu" aria-labelledby="cat_dd">
                     <li href="#" class="show_all_stores">All</li>
-                    <li class="show_cat_stores" data-id="5588">Restaurants & Specialty Food</li>
+                    <li class="show_cat_stores" data-id="5634">Restaurant - Casual</li>
+                     <li class="show_cat_stores" data-id="5634">Restaurant - Casual</li>
                     
                 </ul>
             </div>
@@ -87,7 +89,7 @@
     
     function renderPage(){
         var stores = [];
-        var s1 = getStoresListByCategoryID(5588)
+        var s1 = getStoresListByCategoryID(5634)
    
         stores = stores.concat(s1)
     
