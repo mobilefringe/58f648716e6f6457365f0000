@@ -99,8 +99,8 @@
     
     function renderPage(){
         var stores = getStoresList();
-        renderStoreList('#store_list_container','#store_list_template', stores, "stores", "A", "J");
-        renderStoreList('#store_list_container2','#store_list_template2', stores, "stores","K", "Z" );
+        renderStoreList('#store_list_container','#store_list_template', stores, "stores", "A", "K");
+        renderStoreList('#store_list_container2','#store_list_template2', stores, "stores","L", "Z" );
         renderStoreList('#numbered_store_list_container','#numbered_store_list_template', stores, "stores","#", "#" );
         
         var categories = getStoreCategories();
