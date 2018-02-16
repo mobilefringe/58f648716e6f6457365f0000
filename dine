@@ -112,7 +112,7 @@
     
     function renderPage(){
         var stores = [];
-        var s1 = getStoresListByCategoryID(5618)
+        var s0 = getStoresListByCategoryID(5618)
         var s1 = getStoresListByCategoryID(5619)
         var s2 = getStoresListByCategoryID(5620)
         var s3 = getStoresListByCategoryID(5624)
