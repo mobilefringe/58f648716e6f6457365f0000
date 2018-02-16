@@ -12,18 +12,21 @@
         </a>
         <ul id="category_container2" class="dropdown-menu" aria-labelledby="cat_dd2">
             <li href="#" class="show_all_stores">All</li>
-            <li class="show_cat_stores" data-id="5634">Restaurants - Casual</li>
-             <li class="show_cat_stores" data-id="5635">Restaurants - Full Service</li>
-             <li class="show_cat_stores" data-id="5606">French</li>
+
              <li class="show_cat_stores" data-id="5618">American/Family</li>
              <li class="show_cat_stores" data-id="5619">Asian</li>
               <li class="show_cat_stores" data-id="5620">Bar-B-Que</li>
+              <li class="show_cat_stores" data-id="5624">Coffee/Juice</li>
+              <li class="show_cat_stores" data-id="5623">Dessert/Specialty</li>
+               <li class="show_cat_stores" data-id="5606">French</li>
               <li class="show_cat_stores" data-id="5616">Indian</li>
               <li class="show_cat_stores" data-id="5621">Italian</li>
               <li class="show_cat_stores" data-id="5622">Mediterranean</li>
                <li class="show_cat_stores" data-id="5617">Mexican</li>
-               <li class="show_cat_stores" data-id="5623">Dessert/Specialty</li>
-                 <li class="show_cat_stores" data-id="5624">Coffee/Juice</li>
+               <li class="show_cat_stores" data-id="5634">Restaurants - Casual</li>
+             <li class="show_cat_stores" data-id="5635">Restaurants - Full Service</li>
+               
+                 
             
         </ul>
     </div>
@@ -46,8 +49,18 @@
                 </a>
                 <ul id="category_container" class="dropdown-menu" aria-labelledby="cat_dd">
                     <li href="#" class="show_all_stores">All</li>
-                    <li class="show_cat_stores" data-id="5634">Restaurant - Casual</li>
-                     <li class="show_cat_stores" data-id="5635">Restaurants - Full Service</li>
+                        <li class="show_cat_stores" data-id="5618">American/Family</li>
+             <li class="show_cat_stores" data-id="5619">Asian</li>
+              <li class="show_cat_stores" data-id="5620">Bar-B-Que</li>
+              <li class="show_cat_stores" data-id="5624">Coffee/Juice</li>
+              <li class="show_cat_stores" data-id="5623">Dessert/Specialty</li>
+               <li class="show_cat_stores" data-id="5606">French</li>
+              <li class="show_cat_stores" data-id="5616">Indian</li>
+              <li class="show_cat_stores" data-id="5621">Italian</li>
+              <li class="show_cat_stores" data-id="5622">Mediterranean</li>
+               <li class="show_cat_stores" data-id="5617">Mexican</li>
+               <li class="show_cat_stores" data-id="5634">Restaurants - Casual</li>
+             <li class="show_cat_stores" data-id="5635">Restaurants - Full Service</li>
                     
                 </ul>
             </div>
@@ -99,9 +112,33 @@
     
     function renderPage(){
         var stores = [];
-        var s1 = getStoresListByCategoryID(5634)
+        var s1 = getStoresListByCategoryID(5618)
+        var s1 = getStoresListByCategoryID(5619)
+        var s2 = getStoresListByCategoryID(5620)
+        var s3 = getStoresListByCategoryID(5624)
+        var s4 = getStoresListByCategoryID(5623)
+        var s5 = getStoresListByCategoryID(5606)
+        var s6 = getStoresListByCategoryID(5616)
+        var s7 = getStoresListByCategoryID(5621)
+        var s8 = getStoresListByCategoryID(5622)
+        var s9 = getStoresListByCategoryID(5617)
+        var s10 = getStoresListByCategoryID(5634)
+        var s11 = getStoresListByCategoryID(5635)
+       
    
+        stores = stores.concat(s0)
         stores = stores.concat(s1)
+        stores = stores.concat(s2)
+        stores = stores.concat(s3)
+        stores = stores.concat(s4)
+        stores = stores.concat(s5)
+        stores = stores.concat(s6)
+        stores = stores.concat(s7)
+        stores = stores.concat(s8)
+        stores = stores.concat(s9)
+        stores = stores.concat(s10)
+        stores = stores.concat(s12)
+        stores = stores.concat(s12)
     
         var newarr = [];
         var unique = {};
