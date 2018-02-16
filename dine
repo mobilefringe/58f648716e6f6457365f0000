@@ -137,7 +137,7 @@
         stores = stores.concat(s8)
         stores = stores.concat(s9)
         stores = stores.concat(s10)
-        stores = stores.concat(s12)
+        stores = stores.concat(s11)
         stores = stores.concat(s12)
     
         var newarr = [];
