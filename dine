@@ -138,8 +138,7 @@
         stores = stores.concat(s9)
         stores = stores.concat(s10)
         stores = stores.concat(s11)
-        stores = stores.concat(s12)
-    
+     
         var newarr = [];
         var unique = {};
         $.each(stores, function(i,v){
