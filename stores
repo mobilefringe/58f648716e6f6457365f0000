@@ -114,6 +114,7 @@
                 }
             } 
         });
+        console.log(category_list)
         
         // $.each(categories, function(key, val){
         //     var category_id = val.id;
