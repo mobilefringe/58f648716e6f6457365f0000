@@ -110,7 +110,8 @@
             if (val.store_ids != null) {
                 var cat_id = val.id;
                 if(cat_id != 5618 && cat_id != 5619 && cat_id != 5620 && cat_id != 5624 && cat_id != 5623 && cat_id != 5606 && cat_id != 5616 && cat_id != 5621 && cat_id != 5622 && cat_id != 5617)
-                category_list.push(val);
+                    category_list.push(val);
+                }
             } 
         });
         
