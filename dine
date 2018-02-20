@@ -120,7 +120,6 @@
         var s10 = getStoresListByCategoryID(5634)
         var s11 = getStoresListByCategoryID(5635)
        
-   
         stores = stores.concat(s0)
         stores = stores.concat(s1)
         stores = stores.concat(s2)
