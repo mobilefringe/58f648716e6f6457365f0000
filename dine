@@ -12,22 +12,18 @@
         </a>
         <ul id="category_container2" class="dropdown-menu" aria-labelledby="cat_dd2">
             <li href="#" class="show_all_stores">All</li>
-
-             <li class="show_cat_stores" data-id="5618">American/Family</li>
-             <li class="show_cat_stores" data-id="5619">Asian</li>
-              <li class="show_cat_stores" data-id="5620">Bar-B-Que</li>
-              <li class="show_cat_stores" data-id="5624">Coffee/Juice</li>
-              <li class="show_cat_stores" data-id="5623">Dessert/Specialty</li>
-               <li class="show_cat_stores" data-id="5606">French</li>
-              <li class="show_cat_stores" data-id="5616">Indian</li>
-              <li class="show_cat_stores" data-id="5621">Italian</li>
-              <li class="show_cat_stores" data-id="5622">Mediterranean</li>
-               <li class="show_cat_stores" data-id="5617">Mexican</li>
-               <li class="show_cat_stores" data-id="5634">Restaurants - Casual</li>
-             <li class="show_cat_stores" data-id="5635">Restaurants - Full Service</li>
-               
-                 
-            
+            <li class="show_cat_stores" data-id="5618">American/Family</li>
+            <li class="show_cat_stores" data-id="5619">Asian</li>
+            <li class="show_cat_stores" data-id="5620">Bar-B-Que</li>
+            <li class="show_cat_stores" data-id="5624">Coffee/Juice</li>
+            <li class="show_cat_stores" data-id="5623">Dessert/Specialty</li>
+            <li class="show_cat_stores" data-id="5606">French</li>
+            <li class="show_cat_stores" data-id="5616">Indian</li>
+            <li class="show_cat_stores" data-id="5621">Italian</li>
+            <li class="show_cat_stores" data-id="5622">Mediterranean</li>
+            <li class="show_cat_stores" data-id="5617">Mexican</li>
+            <li class="show_cat_stores" data-id="5634">Restaurants - Casual</li>
+            <li class="show_cat_stores" data-id="5635">Restaurants - Full Service</li>
         </ul>
     </div>
     <div class="store_nav hidden_phone">
@@ -49,19 +45,18 @@
                 </a>
                 <ul id="category_container" class="dropdown-menu" aria-labelledby="cat_dd">
                     <li href="#" class="show_all_stores">All</li>
-                        <li class="show_cat_stores" data-id="5618">American/Family</li>
-             <li class="show_cat_stores" data-id="5619">Asian</li>
-              <li class="show_cat_stores" data-id="5620">Bar-B-Que</li>
-              <li class="show_cat_stores" data-id="5624">Coffee/Juice</li>
-              <li class="show_cat_stores" data-id="5623">Dessert/Specialty</li>
-               <li class="show_cat_stores" data-id="5606">French</li>
-              <li class="show_cat_stores" data-id="5616">Indian</li>
-              <li class="show_cat_stores" data-id="5621">Italian</li>
-              <li class="show_cat_stores" data-id="5622">Mediterranean</li>
-               <li class="show_cat_stores" data-id="5617">Mexican</li>
-               <li class="show_cat_stores" data-id="5634">Restaurants - Casual</li>
-             <li class="show_cat_stores" data-id="5635">Restaurants - Full Service</li>
-                    
+                    <li class="show_cat_stores" data-id="5618">American/Family</li>
+                    <li class="show_cat_stores" data-id="5619">Asian</li>
+                    <li class="show_cat_stores" data-id="5620">Bar-B-Que</li>
+                    <li class="show_cat_stores" data-id="5624">Coffee/Juice</li>
+                    <li class="show_cat_stores" data-id="5623">Dessert/Specialty</li>
+                    <li class="show_cat_stores" data-id="5606">French</li>
+                    <li class="show_cat_stores" data-id="5616">Indian</li>
+                    <li class="show_cat_stores" data-id="5621">Italian</li>
+                    <li class="show_cat_stores" data-id="5622">Mediterranean</li>
+                    <li class="show_cat_stores" data-id="5617">Mexican</li>
+                    <li class="show_cat_stores" data-id="5634">Restaurants - Casual</li>
+                    <li class="show_cat_stores" data-id="5635">Restaurants - Full Service</li>
                 </ul>
             </div>
         </div>
