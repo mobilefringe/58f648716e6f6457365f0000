@@ -165,9 +165,9 @@
                 }
             }
             if (val.description.length > 200){
-               val.short_name =  val.description.substring(0, 200) + "..."
+               val.short_name =  val.name.substring(0, 200) + "..."
             } else {
-                val.short_name =  val.description
+                val.short_name =  val.name
             }
             
             if (val.total_published_promos > 0){
