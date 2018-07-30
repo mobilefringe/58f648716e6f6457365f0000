@@ -164,8 +164,8 @@
                     val.alt_store_front_url = getImageURL(val.store_front_url);    
                 }
             }
-            if (val.name.length > 200){
-               val.short_name =  val.name.substring(0, 200) + "..."
+            if (val.name.length > 75){
+               val.short_name =  val.name.substring(0, 75) + "..."
             } else {
                 val.short_name =  val.name
             }
