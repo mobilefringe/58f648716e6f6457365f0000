@@ -38,7 +38,7 @@
                             <img src="{{alt_store_front_url}}" style="{{show_main_image}}" class="store_list_logo" />
                         </div>
                         <div class="store_data_container">
-                            <p class="store_list_name"><a href="/stores/{{slug}}">{{name}}</a></p>
+                            <p class="store_list_name"><a href="/stores/{{slug}}">{{short_name}}</a></p>
                             <p class="today_store_hours" id="today_store_hour_{{id}}">{{hour_string}}</p>
                         </div>
                     </div>
