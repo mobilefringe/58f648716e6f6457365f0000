@@ -1,0 +1,122 @@
+$layout_color: #66ae3d;
+$animation_color: #ffd700;
+
+.main_btn, .back_to_home, .copyright_footer, .newsletter_btn, .flex-control-paging li a.flex-active, .store_nav a.active_store_nav:after, .store_nav a:hover:after, .store_initial, .details_header, .back_to_list, .back_to_list:hover, .back_to_list:focus, .mobile_menu_dd, #mm_page_content h2{
+    background: $layout_color;
+}
+
+.newsletter_control:focus{
+    border-color: $layout_color;
+}
+
+.view_more_btn, .colored_link, .colored_link a, #mm_page_content h1, .mobile_menu li a, .promo_exist{
+    color: $layout_color;
+}
+
+.animated_btn:before{
+    background: $animation_color;
+}
+
+.stores_banner{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/5b5f65b26e6f644fe86e0200/image/jpeg/1517929396000/cts_1920x150_banner_directory.jpg);
+}
+
+.events_banner{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/5b5f65b26e6f644fe86e0200/image/jpeg/1518813898000/cts_1920x150_Evens.jpg);
+}
+
+.dine_banner{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/5b5f65b26e6f644fe86e0200/image/jpeg/1517929412000/cts_1920x150_banner_dine.jpg);
+}
+
+.jobs_banner{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/5b5f65b26e6f644fe86e0200/image/jpeg/1517929482000/cts_1920x150_banner_jobs.jpg);
+}
+
+.location_banner{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/5b5f65b26e6f644fe86e0200/image/jpeg/1517929450000/cts_1920x150_banner_location.jpg);
+}
+
+
+.clairemont-contact-us{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/5b5f65b26e6f644fe86e0200/image/jpeg/1518813898000/cts_1920x150_Contact_Us.jpg);
+}
+.clairemont-privacy-policy{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/5b5f65b26e6f644fe86e0200/image/jpeg/1517929472000/cts_1920x150_banner_privacy.jpg);
+}
+.clairemont-services{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/5b5f65b26e6f644fe86e0200/image/jpeg/1518813898000/cts_1920x150_Services.jpg);
+}
+.district-videos{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/57f2b1016e6f645d03550000/image/jpeg/undefined/dtl_1920x150_banner_events.jpg);
+}
+.main_logo{
+    margin-top: 0;
+    max-height: 90px;
+}
+
+/**** DINE STYLING *****/
+#dining_container {
+    .store_nav a:after {
+        min-width: 40px;
+    }
+    .store_container {
+        position:relative;
+        margin-bottom: 30px;
+        .store_logo_container {
+            overflow: hidden;
+            border: 1px solid #D8D8D8;
+            height: 200px;
+            position: relative;
+            .store_list_logo {
+                max-width: 100%;
+                max-height:100%;
+                transition: all ease 0.3s;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                &:hover {
+                    transform: translate(-50%,-50%) scale(1.1);
+                }
+            }
+        }
+        .store_data_container {
+            background: #F2F2F2;
+            border: 1px solid #D8D8D8;
+            border-top: none;
+            padding-top: 15px;
+            height: 120px;
+            position:relative;
+            .store_list_name {
+                font-size: 20px;
+                line-height: normal;
+            }
+            .today_store_hours {
+                margin: 0 20px;
+                font-size: 14px;
+                position: absolute;
+                bottom: 10px;
+            }
+            .today_store_hours.red{
+                color: red;
+            }
+        }
+        .new_store_tag {
+            position: absolute;
+            width: 60px;
+            right: 0px;
+            top: -8px;
+            z-index: 3;
+        }
+    }
+    #current_category {
+        font-family: Avenir-Medium;
+        font-size: 18px;
+        color: #4B4B4B;
+        position: relative;
+        display: inline-block;
+        margin: auto;
+    }
+}
+
