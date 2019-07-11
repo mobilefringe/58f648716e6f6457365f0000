@@ -222,10 +222,10 @@
                             } else {
                                 feed_obj.caption = ""
                             }
-                            console.log('v.images', v.images)
                             feed_obj.image = v.images[size].url
                             feed_obj.link = v.link
                             if (i < total){
+                            console.log('v.images', v.images[size].url)
                                 var ig_rendered =  Mustache.render(html,feed_obj);
                                 item_rendered.push(ig_rendered.trim());
                             }
